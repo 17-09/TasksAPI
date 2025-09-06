@@ -129,8 +129,5 @@ Non-functional requirements
 ```
 
 3. Start generating code & bug fixes
-- Genereate backend
-- Genereate frontend
-- Genereate dockerfile & docker compose
-
+   Use above as final prompt to generate backend, frontend, then docker compose
 (This project's scope is small so we can generate backend or frontend at one prompt call, but for large project, should build skeleton structure, then focus on each sub-domain to produce better output with AI)
